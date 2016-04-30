@@ -1,0 +1,24 @@
+@prefix lmi: <http://purl.org/eis/vocab/lmi#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a lmi:MetricConfiguration ;
+ lmi:metric 
+ 	"eu.diachron.qualitymetrics.contextual.timeliness.CurrencyOfDataset", 	"eu.diachron.qualitymetrics.contextual.timeliness.FreshnessOfDataset" ,
+ 	"eu.diachron.qualitymetrics.contextual.timeliness.TimelinessOfResource" ,
+	"eu.diachron.qualitymetrics.contextual.understandability.HumanReadableLabelling" ,
+	"eu.diachron.qualitymetrics.contextual.understandability.PresenceOfURIRegEx" ,
+	"eu.diachron.qualitymetrics.contextual.understandability.VocabularyUsageIndication" ,
+	"eu.diachron.qualitymetrics.intrinsic.conciseness.EstimatedExtensionalConciseness" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.AdvancedEntitiesAsMembersOfDisjointClasses" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.MisplacedClassesOrProperties" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.MisusedOwlDatatypeOrObjectProperties" ,
+ 	"eu.diachron.qualitymetrics.intrinsic.consistency.OntologyHijacking" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.UsageOfDeprecatedClassesOrProperties" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.UsageOfIncorrectDomainOrRangeDatatypes" ,
+	"eu.diachron.qualitymetrics.intrinsic.consistency.ValidIFPUsage" ,
+	"eu.diachron.qualitymetrics.intrinsic.syntacticvalidity.CompatibleDatatype" ,
+	"eu.diachron.qualitymetrics.intrinsic.syntacticvalidity.CorrectLanguageTag" .
+	
