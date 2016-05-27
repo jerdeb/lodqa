@@ -57,7 +57,13 @@ Once everything is installed, run Luzzu as per the instructions in (https://gith
 This work is licensed under the MIT licensed
 
 ## How to Cite
-Using these scripts? Please cite one of the publications below.
+```
+@article{debattistalod,
+  title={Are LOD Datasets Well Represented? A Data Representation Quality Survey.},
+  author={Debattista, Jeremy and Lange, Christoph and Auer, S{\"o}ren}
+  url="https://www.researchgate.net/publication/301765676_Are_LOD_Datasets_Well_Represented_A_Data_Representation_Quality_Survey"
+}
+```
 
 ## Publications
 Are LOD Cloud Datasets Well Represented? A Data Representation Quality Survey (Under Review) - [pdf](https://www.researchgate.net/publication/301765676_Are_LOD_Datasets_Well_Represented_A_Data_Representation_Quality_Survey)
