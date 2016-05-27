@@ -60,8 +60,8 @@ This work is licensed under the MIT licensed
 ```
 @article{debattistalod,
   title={Are LOD Datasets Well Represented? A Data Representation Quality Survey.},
-  author={Debattista, Jeremy and Lange, Christoph and Auer, S{\"o}ren}
-  url="https://www.researchgate.net/publication/301765676_Are_LOD_Datasets_Well_Represented_A_Data_Representation_Quality_Survey"
+  author={Debattista, Jeremy and Lange, Christoph and Auer, S{\"o}ren},
+  url={https://www.researchgate.net/publication/301765676_Are_LOD_Datasets_Well_Represented_A_Data_Representation_Quality_Survey}
 }
 ```
 
