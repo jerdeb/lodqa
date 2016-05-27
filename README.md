@@ -55,8 +55,13 @@ Once everything is installed, run Luzzu as per the instructions in (https://gith
 ## License
 This work is licensed under the MIT licensed
 
+## How to Cite
+There are two ways how this repository can be cited:
+1. Cite one of the publications;
+2. Jeremy Debattista. lodqa - LOD Cloud Crawler for Quality Assessment with Luzzu. (2016).
+
 ## Publications
-Are LOD Cloud Datasets Well Represented? A Data Representation Quality Survey (Under Review) (pdf)
+Are LOD Cloud Datasets Well Represented? A Data Representation Quality Survey (Under Review) (['pdf']('https://www.researchgate.net/publication/301765676_Are_LOD_Datasets_Well_Represented_A_Data_Representation_Quality_Survey'))
 
 ## Acknowledgements
 I would like to thank Sören Auer, Christoph Lange, and Aidan Hogan for their valuable contribution towards this work.
