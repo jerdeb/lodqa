@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>LOD Cloud Quality Assessment by jerdeb</title>
+
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.tablesorter.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+          {
+              $("#myTable").tablesorter();
+          }
+        );
+    </script>
+
+    <!-- <style type="text/css">
+      table{
+          table-layout: fixed;
+      }
+
+      td{
+        word-wrap:break-word;
+        max-width: 100px
+      }
+    </style> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+      <header class="col-sm-4">
+        <h1>LOD Cloud Quality Assessment</h1>
+        <p>Results and Scripts for the Quality Assessment of the LOD Cloud</p>
+
+        <p>
+          == Shortcuts == <br/>
+          <a href="index.html"> > Home </a><br/>
+          <span style="color:red"> > Current Ranking  </span><br/>
+          <a href="accessibility.html"> > Visualisation of Accessible Datasets </a> <br/>
+        </p>
+
+        <!-- <p class="view"><a href="https://github.com/jerdeb/lodqa">View the Project on GitHub <small>jerdeb/lodqa</small></a></p> -->
+        <ul>
+          <li><a href="https://github.com/jerdeb/lodqa/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jerdeb/lodqa/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jerdeb/lodqa">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section class="col-sm-8">
+
+          <p>This table shows the current ranking and assessment for 123 datasets that have been assessed for Contextual quality metrics up until 31st May 2016. Each dataset was given an aggregated value on the metrics that marked the final ranking.
+            Click on the column header to rank the datasets based on single metrics. The metrics are:
+            <ul>
+              <li>P1 - Provision for Basic Provenance Information</li>
+              <li>P2 - Identifying the Origin of the Data</li>
+              <li>U1 - Human Readable Labelling and Comments</li>
+              <li>U3 - Presence of URI Regular Expression</li>
+              <li>U5 - Indication of Used Vocabularies</li>
+            </ul>
+          </p>
+                <table id="myTable" class="tablesorter">
+                  <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Dataset</th>
+                    <th>Overall Value</th>
+                    <th>P1</th>
+                    <th>P2</th>
+                    <th>U1</th>
+                    <th>U3</th>
+                    <th>U5</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+					  *** TODO ***
+                </tbody>
+                </table>
+          </section>
+        </div>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jerdeb">jerdeb</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
